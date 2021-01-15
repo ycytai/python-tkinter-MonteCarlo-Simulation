@@ -1,2 +1,2 @@
-# python_tkinter_MonteCarlo_Simulation
+# python-Monte-Carlo-Simulation
 GUI for Monte Carlo Simulation process about Stock Option
