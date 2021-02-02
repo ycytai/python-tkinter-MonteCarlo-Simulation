@@ -12,14 +12,18 @@ Plot represent ten of all simulation process.
 And the title of plot tells the present value of the option and simulation times.
 
 
-**notice**
+**Notice**
 ---
 1. expected return(mu) was set as zero.
 2. Simulation period should set more than ten.
 
+**Screen Shot**
+---
 ![](./monte_carlo_simulation_1.png)
 ![](./monte_carlo_simulation_2.png)
 
+**Enjoy**
+---
 1. Clone the project 
 ```bash
 git clone https://github.com/ycy-tw/python-tkinter-MonteCarlo-Simulation.git
