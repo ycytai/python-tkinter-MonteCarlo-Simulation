@@ -16,3 +16,4 @@ six==1.15.0
 tk==0.1.0
 typing-extensions==3.7.4.3
 zipp==3.4.0
+ctypes==1.1.0
