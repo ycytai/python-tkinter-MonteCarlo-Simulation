@@ -1,8 +1,8 @@
 # python-Monte-Carlo-Simulation
 GUI for Monte Carlo Simulation process of Stock Option
 
-![](./monte_carlo_simulation_1.png")
-![](./monte_carlo_simulation_2.png")
+![](./monte_carlo_simulation_1.png)
+![](./monte_carlo_simulation_2.png)
 
 1. Clone the project 
 ```bash
