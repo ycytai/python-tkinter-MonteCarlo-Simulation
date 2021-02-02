@@ -1,5 +1,15 @@
 # python-Monte-Carlo-Simulation
-GUI for Monte Carlo Simulation process of Stock Option
+> GUI for Monte Carlo Simulation process of stock option
+
+*Introduction*
+Enter all parameters needed and click simulate. 
+Result will show up right after(In most of time, it depends on the simulation times("M").)
+Plot represent ten of all simulation process.
+And the title of plot tells the present value of the option and simulation times.
+
+*notice*
+1. expected return(mu) was set as zero.
+2. Simulation period should set more than ten.
 
 ![](./monte_carlo_simulation_1.png)
 ![](./monte_carlo_simulation_2.png)
