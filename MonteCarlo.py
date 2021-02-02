@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import math
 import os
 import numpy as np
+import ctypes
 
 def MonteCarlo_Simulation(S, V, T, N, mu=0):
     
@@ -249,8 +250,10 @@ simulate_button = Button(main_frame, bg='#bed4eb', text='Simulate', padx=4, pady
 reset_button = Button(main_frame, bg='#fca4a4', text='Reset', padx=4, pady=1,  
                          width=6, relief='groove', font = (font_type, 11), command=Reset)
 
-
 simulate_button.grid(row=9, column=1)
 reset_button.grid(row=9, column=0)
 
+ctypes.windll.shcore.SetProcessDpiAwareness(1)
+ScaleFactor = ctypes.windll.shcore.GetScaleFactorForDevice(0)
+root.tk.call('tk', 'scaling', ScaleFactor/200)
 root.mainloop()
