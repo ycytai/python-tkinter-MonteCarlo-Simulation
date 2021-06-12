@@ -19,8 +19,8 @@ And the title of plot tells the present value of the option and simulation times
 
 **Screen Shot**
 ---
-![](./monte_carlo_simulation_1.png)
-![](./monte_carlo_simulation_2.png)
+![](./sc_1.png)
+![](./sc_2.png)
 
 **Enjoy**
 ---
