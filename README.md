@@ -16,7 +16,7 @@ The title of plot tells the present value of the option.
 1. expected return(mu) was set as zero.
 2. Simulation period should set more than ten.
 
-**Screen Shot**
+**Screenshots**
 ---
 ![](./sc_1.png)
 ![](./sc_2.png)
