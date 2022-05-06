@@ -3,13 +3,12 @@
 
 **Introduction**
 ---
-Enter all parameters needed and click simulate. 
+Enter all parameters needed and click simulate.
 
-Result will show up right after(In most of time, it depends on the simulation times("M").)
+Result will show up right after(In most of time, it depends on the simulation("M").)
 
-Plot represent ten of all simulation process.
 
-And the title of plot tells the present value of the option and simulation times.
+The title of plot tells the present value of the option.
 
 
 **Notice**
@@ -24,13 +23,11 @@ And the title of plot tells the present value of the option and simulation times
 
 **Enjoy**
 ---
-1. Clone the project 
+
 ```bash
 git clone https://github.com/ycy-tw/python-tkinter-MonteCarlo-Simulation.git
-```
-
-2. Start Simulating
-```bash
 cd python-tkinter-MonteCarlo-Simulation
+virtualenv env
+pip install -r requirements.txt
 python MonteCarlo.py
 ```

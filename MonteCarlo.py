@@ -75,13 +75,7 @@ def Simulate():
             option_value_T = max(stock_price_T - K, 0) if option_type == 'C' \
                 else max(K - stock_price_T, 0)
             result_option_value.append(option_value_T)
-
-            if len(result_simulation_process_result) != 10:
-
-                result_simulation_process_result.append(result[1])
-
-            else:
-                pass
+            result_simulation_process_result.append(result[1])
 
         expected_option_price = sum(result_option_value) / how_many_times
         pv_of_expected_option_price = expected_option_price * math.exp(-R*T)
@@ -99,7 +93,7 @@ def Simulate():
 
         fig.suptitle("Option Price (PV): " + r"$\bf{" +
                      '{:.2f}'.format(pv_of_expected_option_price) + "}$  " +
-                     "Simulation Times: " + r"$\bf{" + str(how_many_times) + "}$", fontsize=18)
+                     "Simulation: " + r"$\bf{" + str(how_many_times) + "}$", fontsize=18)
 
         ax.axhline(y=S, color="k", ls="--", alpha=0.8)
 
@@ -202,7 +196,7 @@ time_label = Label(main_frame, font=label_font, bg=label_color, text='Year (T)')
 rate_label = Label(main_frame, font=label_font, bg=label_color, text='Rate (R)')
 volatility_label = Label(main_frame, font=label_font, bg=label_color, text='Volatility (V)')
 period_label = Label(main_frame, font=label_font, bg=label_color, text='Period (N)')
-simulate_times_label = Label(main_frame, font=label_font, bg=label_color, text='Simlation (M)')
+simulate_times_label = Label(main_frame, font=label_font, bg=label_color, text='Simulation (M)')
 
 
 title_label.grid(row=0, column=0, padx=4, pady=4,  columnspan=2)
