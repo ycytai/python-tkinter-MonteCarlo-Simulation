@@ -25,8 +25,6 @@ The title of plot tells the present value of the option.
 ---
 
 ```bash
-git clone https://github.com/ycy-tw/python-tkinter-MonteCarlo-Simulation.git
-cd python-tkinter-MonteCarlo-Simulation
 virtualenv env
 pip install -r requirements.txt
 python MonteCarlo.py
